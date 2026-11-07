@@ -1,69 +1,86 @@
 # Validador de CPF
 
-Projeto desenvolvido no **Scratch** com o objetivo de verificar a validade de números de CPF por meio de algoritmos e estruturas de lógica de programação.
+Projeto desenvolvido inicialmente no **Scratch** e posteriormente implementado para a Web utilizando **HTML, CSS e JavaScript**. O objetivo é verificar a validade de números de CPF por meio do algoritmo de validação dos dígitos verificadores.
 
 ## Sobre o projeto
 
-O Validador de CPF é um projeto acadêmico desenvolvido para praticar conceitos de programação, como variáveis, listas, estruturas condicionais, laços de repetição e operações matemáticas.
+O Validador de CPF surgiu como uma atividade acadêmica com o objetivo de desenvolver o raciocínio lógico e aplicar conceitos fundamentais de programação.
 
-O sistema recebe um número de CPF e realiza os cálculos necessários para verificar se seus dígitos verificadores correspondem ao resultado esperado.
+Após a implementação inicial no Scratch, o projeto foi expandido para uma aplicação web, permitindo uma interação mais intuitiva por meio de uma interface desenvolvida com HTML e CSS, enquanto o JavaScript é responsável pela lógica de validação.
 
 ## Funcionalidades
 
-- Recebimento de um número de CPF.
+- Recebimento de números de CPF.
+- Aceitação de CPF com ou sem pontuação. (no site apenas, scratch ainda será aprimorado)
 - Verificação da quantidade de dígitos.
-- Cálculo dos dígitos verificadores.
+- Cálculo dos dois dígitos verificadores.
 - Identificação de CPFs válidos e inválidos.
-- Exibição do resultado da validação.
+- Exibição visual do resultado da validação.
+- Interface interativa e responsiva.
 
 ## Tecnologias utilizadas
 
-- **Scratch:** desenvolvimento da lógica e implementação do projeto.
+- **Scratch:** desenvolvimento da primeira versão e implementação da lógica inicial.
+- **HTML5:** estruturação da aplicação web.
+- **CSS3:** estilização e organização da interface.
+- **JavaScript:** implementação do algoritmo de validação e interatividade.
 
 ## Algoritmo utilizado
 
-O projeto utiliza o algoritmo de validação de CPF, que consiste em duas etapas de cálculo dos dígitos verificadores, utilizando operações matemáticas e pesos específicos.
+O projeto utiliza o algoritmo oficial de validação de CPF, que consiste em duas etapas de cálculo dos dígitos verificadores, utilizando operações matemáticas e pesos específicos.
 
-## Demonstração
-**Validador de CPF**
+## Demonstrações:
 
-<p aling="center">
-  <img src="screenshots/TelaInicialCPF.png" width="30%">
-  <img src="screenshots/TelaInicialCPF.png" width="30%">
-  <img src="screenshots/TelaInicialCPF.png" width="30%">
+## Versão Web
+
+<p align="center">
+  <img src="screenshots/site-inicial.png" width="30%">
+  <img src="screenshots/site-valido.png" width="30%">
+  <img src="screenshots/site-invalido.png" width="30%">
 </p>
 
-**CPF válido**
+## Versão Scratch
+
+### CPF Válido
 
 <p align="center">
   <img src="screenshots/CPF-Valido1.png" width="30%">
-  <img src="screenshots/TelaInicialCPF.png" width="30%">
+  <img src="screenshots/CPF-Valido2.png" width="30%">
   <img src="screenshots/CPF-Valido3.png" width="30%">
 </p>
 
-**CPF inválido**
+### CPF Inválido
 
 <p align="center">
-  <img src="screenshots/TelaInicialCPF.png" width="30%">
-  <img src="screenshots/TelaInicialCPF.png" width="30%">
-  <img src="screenshots/TelaInicialCPF.png" width="30%">
+  <img src="screenshots/CPF-Invalido1.png" width="30%">
+  <img src="screenshots/CPF-Invalido2.png" width="30%">
+  <img src="screenshots/CPF-Invalido3.png" width="30%">
 </p>
 
-`Os CPF's utilizados são fictícios apenas para demonstração`
+> Os CPFs utilizados nas demonstrações são fictícios e destinados exclusivamente a testes.
+
 ## Como executar
+
+### Versão Web
+
+1. Clone este repositório.
+2. Abra a pasta do projeto.
+3. Execute o arquivo `index.html` no navegador.
+
+**Acesse o site pelo GitHub Pages:** [Site Validador de CPF](https://stenio-moraes.github.io/validador_de_cpf/)
+
+### Versão Scratch
 
 1. Baixe o arquivo `.sb3` disponível neste repositório.
 2. Acesse o [Scratch](https://scratch.mit.edu/).
 3. Abra o editor e carregue o arquivo do projeto.
 4. Execute o programa e informe um CPF para realizar a validação.
 
-OU ACESSE PELO LINK
-
-5. <a href="https://scratch.mit.edu/projects/1410025787">Verificador de CPF</a>
+**Acesse o projeto no Scratch:** [Validador de CPF](https://scratch.mit.edu/projects/1410025787/)
 
 ## Objetivo acadêmico
 
-Este projeto foi desenvolvido como atividade de aprendizagem no curso de Desenvolvimento de Sistemas, com foco no desenvolvimento do raciocínio lógico e na aplicação prática de algoritmos.
+Este projeto foi desenvolvido como atividade de aprendizagem no curso de Desenvolvimento de Sistemas, com foco no desenvolvimento do raciocínio lógico, na compreensão de algoritmos e na aplicação prática dos conhecimentos adquiridos em diferentes tecnologias.
 
 ---
 
