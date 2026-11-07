@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Validador de CPF</h1>
+    </header>
+    <main>
+        <section>
+            <form id="cpf-form" class="card" onsubmit="testarValidacao(event)">
+                <label for="cpf">Digite o CPF</label>
+                <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" maxlength="14"
+                    oninput="aplicarMascara(this)" required>
+                <button type="submit">Validar</button>
+                <div id="resultado"></div>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="./JS/script.js"></script>
+
+</html>
