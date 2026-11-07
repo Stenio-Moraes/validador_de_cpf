@@ -24,6 +24,32 @@ O sistema recebe um número de CPF e realiza os cálculos necessários para veri
 
 O projeto utiliza o algoritmo de validação de CPF, que consiste em duas etapas de cálculo dos dígitos verificadores, utilizando operações matemáticas e pesos específicos.
 
+## Demonstração
+**Validador de CPF**
+
+<p aling="center">
+  <img src="screenshots/TelaInicialCPF.png" width="30%">
+  <img src="screenshots/TelaInicialCPF.png" width="30%">
+  <img src="screenshots/TelaInicialCPF.png" width="30%">
+</p>
+
+**CPF válido**
+
+<p align="center">
+  <img src="screenshots/CPF-Valido1.png" width="30%">
+  <img src="screenshots/TelaInicialCPF.png" width="30%">
+  <img src="screenshots/CPF-Valido3.png" width="30%">
+</p>
+
+**CPF inválido**
+
+<p align="center">
+  <img src="screenshots/TelaInicialCPF.png" width="30%">
+  <img src="screenshots/TelaInicialCPF.png" width="30%">
+  <img src="screenshots/TelaInicialCPF.png" width="30%">
+</p>
+
+`Os CPF's utilizados são fictícios apenas para demonstração`
 ## Como executar
 
 1. Baixe o arquivo `.sb3` disponível neste repositório.
