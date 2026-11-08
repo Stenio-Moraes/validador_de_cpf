@@ -10,7 +10,27 @@
 <body>
     <header>
         <h1>Validador de CPF</h1>
+        <button type="button" id="abrir-menu" class="botao-menu">
+            ☰
+        </button>
     </header>
+    <div id="fundo-menu" class="fundo-menu"></div>
+    <aside id="menu-lateral" class="menu-lateral">
+        <div class="menu-cabecalho">
+            <h2>Menu</h2>
+            <button type="button" id="fechar-menu">
+                ×
+            </button>
+        </div>
+        <nav>
+            <a href="https://github.com/Stenio-Moraes" target="_blank">Sobre mim</a>
+            <a href="https://github.com/Stenio-Moraes?tab=repositories" target="_blank">Meus reprositorios</a>
+            <a href="https://github.com/stars/Stenio-Moraes/lists/projetos-em-destaque" target="_blank">Projetos em destaque</a>
+            <a href="https://github.com/Stenio-Moraes" target="_blank">
+                GitHub
+            </a>
+        </nav>
+    </aside>
     <main>
         <section>
             <form id="cpf-form" class="card" onsubmit="testarValidacao(event)">
@@ -23,7 +43,7 @@
         </section>
     </main>
     <footer>
-        <p>© 2026 - Validador de CPF - Desenvolvido por Stênio Moraes - <a href="https://github.com/Stenio-Moraes">Meu GitHub</a></p>
+        <p>© 2026 - Validador de CPF - Desenvolvido por Stênio Moraes</p>
     </footer>
 </body>
 <script src="js/script.js"></script>
